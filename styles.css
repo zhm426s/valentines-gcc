@@ -41,3 +41,15 @@
 .heart {
   animation: heartbeat 1.5s ease-in-out infinite;
 }
+
+body.first-page {
+    background-color: var(--chocolate);
+    text-align: center;
+}
+
+#title-text {
+    color: var(--cupid-pink);
+    font-size: 32px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
