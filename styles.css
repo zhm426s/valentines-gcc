@@ -2,7 +2,7 @@
 :root {
   --cupid-pink: #ffafcc;
   --valentine-red: #ff4d6d;
-  --love-purple: #c77dff;
+  --love-purple: #8932a7;
   --chocolate: #7b3f00;
   --vanilla: #fffaf0;
   
@@ -45,18 +45,22 @@
 body.first-page {
     background-color: var(--chocolate);
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .continue-link {
     background-color: var(--love-purple);
     border: 3px solid var(--vanilla);
-    color: var(--vanilla);
-
 }
 
 #title-text {
     color: var(--cupid-pink);
     font-size: 32px;
     font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link {
+    color: var(--vanilla);
+    font-style: italic;
+    font-weight: bold;
 }
