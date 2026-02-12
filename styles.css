@@ -43,10 +43,17 @@
 }
 
 body.first-page {
-    background-color: var(--chocolate);
+    background-image: url(images/beach_main.png);
+    background-size: 100%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20%;
+    padding: 23% 20% 17% 20%;
+}
+
+.text-container {
+    background-color: var(--love-purple);
+    border: 3px solid var(--vanilla);
+    border-radius: 10px;
 }
 
 .continue-link {
