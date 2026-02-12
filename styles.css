@@ -47,6 +47,13 @@ body.first-page {
     text-align: center;
 }
 
+.continue-link {
+    background-color: var(--love-purple);
+    border: 3px solid var(--vanilla);
+    color: var(--vanilla);
+
+}
+
 #title-text {
     color: var(--cupid-pink);
     font-size: 32px;
