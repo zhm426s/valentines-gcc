@@ -52,6 +52,12 @@ body.first-page {
     padding: 23% 20% 17% 20%;
 }
 
+body.beach-page {
+    background-image: url(images/beach_main.png);
+    background-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .text-container {
     background-color: var(--love-purple);
     border: 3px solid var(--vanilla);
