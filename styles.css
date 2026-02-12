@@ -46,21 +46,29 @@ body.first-page {
     background-color: var(--chocolate);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20%;
 }
 
 .continue-link {
-    background-color: var(--love-purple);
+    background-color: var(--cupid-pink);
     border: 3px solid var(--vanilla);
+    width: 20%;
+    height: 10%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 50%;
+    box-shadow: 0 0 3px var(--love-purple);
 }
 
 #title-text {
     color: var(--cupid-pink);
     font-size: 32px;
     font-style: italic;
+    text-shadow: 0 0 3px var(--love-purple);
 }
 
 a:link {
-    color: var(--vanilla);
+    color: var(--love-purple);
     font-style: italic;
     font-weight: bold;
 }
