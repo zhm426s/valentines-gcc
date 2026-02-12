@@ -91,7 +91,29 @@ a:link {
 
 #heart2 {
     color: var(--love-purple);
-    top: 70%;
+    top: 50%;
     left: 80%;
     font-size: 56px;
+}
+
+img {
+    position: absolute;
+}
+
+#fronthearts {
+    width: 300px;
+    top: 65%;
+    left: 0%;
+}
+
+#boat {
+    width: 300px;
+    top: 75%;
+    left: 60%;
+}
+
+#frontcouple {
+    width: 130px;
+    top: 63%;
+    left: 65%;
 }
