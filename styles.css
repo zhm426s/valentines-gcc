@@ -40,6 +40,8 @@
 
 .heart {
   animation: heartbeat 1.5s ease-in-out infinite;
+  text-shadow: 0 0 3px var(--love-purple);
+  position: absolute;
 }
 
 body.first-page {
@@ -78,4 +80,18 @@ a:link {
     color: var(--love-purple);
     font-style: italic;
     font-weight: bold;
+}
+
+#heart1 {
+    color: var(--valentine-red);
+    top: 10%;
+    left: 15%;
+    font-size: 64px;
+}
+
+#heart2 {
+    color: var(--love-purple);
+    top: 70%;
+    left: 80%;
+    font-size: 56px;
 }
